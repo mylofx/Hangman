@@ -19,7 +19,7 @@ all_words = []
 
 cur.execute("SELECT * From words")
 all_words = cur.fetchall()
-print(all_words)
+
 def print_all_words():
     xx = 0
     for lol in range(len(all_words)):
